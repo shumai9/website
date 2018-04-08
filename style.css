@@ -1,0 +1,22 @@
+h1{
+  text-decoration-style: underline;
+  text-align: center; 
+  font-weight: bold;
+  font-family: 'sans-serif', monospace;
+}
+
+ #a,.pic{
+  display:grid;  
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-template-rows:repeat(3, 1fr); 
+  max-width:100%;
+  position: relative;
+  padding: 10px;
+  grid-gap: 15px 15px;
+}
+p {
+  text-align:left;
+  text-decoration-color: blue;
+}
+/*{margin:0 10 0 0;
+padding: 0 0 0 0;}
